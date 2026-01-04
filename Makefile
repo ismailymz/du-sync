@@ -1,17 +1,14 @@
-# Variables
-CC = gcc
-CFLAGS = -Wall -Wextra -pthread
+CC=gcc
+CFLAGS=-std=c11 -Wall -Wextra -O2 -g -Iinclude
+LDFLAGS=-pthread
 
-# The 'all' target is required for the exam evaluation
-all: build
+SRC = src/main.c src/traversal.c src/hash_table.c
+OUT = du-sync
 
-build:
-	$(CC) $(CFLAGS) -o du-sync main.c hash_table.c
+all: $(OUT)
 
-# Required target to remove generated files
+$(OUT): $(SRC)
+	$(CC) $(CFLAGS) $(SRC) -o $(OUT) $(LDFLAGS)
+
 clean:
-	rm -f du-sync
-
-# Required target to execute your tests
-test: build
-	./run_tests.sh
+	rm -f $(OUT)
