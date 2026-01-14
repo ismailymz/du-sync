@@ -1,0 +1,112 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Wshadow",
+      "-Wconversion",
+      "-Wnull-dereference",
+      "-Wformat=2",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "src/main.o",
+      "src/main.c"
+    ],
+    "directory": "/home/vboxuser/Desktop/du-sync-ekrem",
+    "file": "/home/vboxuser/Desktop/du-sync-ekrem/src/main.c",
+    "output": "/home/vboxuser/Desktop/du-sync-ekrem/src/main.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Wshadow",
+      "-Wconversion",
+      "-Wnull-dereference",
+      "-Wformat=2",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "src/du_sync.o",
+      "src/du_sync.c"
+    ],
+    "directory": "/home/vboxuser/Desktop/du-sync-ekrem",
+    "file": "/home/vboxuser/Desktop/du-sync-ekrem/src/du_sync.c",
+    "output": "/home/vboxuser/Desktop/du-sync-ekrem/src/du_sync.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Wshadow",
+      "-Wconversion",
+      "-Wnull-dereference",
+      "-Wformat=2",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "src/inode_set.o",
+      "src/inode_set.c"
+    ],
+    "directory": "/home/vboxuser/Desktop/du-sync-ekrem",
+    "file": "/home/vboxuser/Desktop/du-sync-ekrem/src/inode_set.c",
+    "output": "/home/vboxuser/Desktop/du-sync-ekrem/src/inode_set.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Wshadow",
+      "-Wconversion",
+      "-Wnull-dereference",
+      "-Wformat=2",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "src/path_util.o",
+      "src/path_util.c"
+    ],
+    "directory": "/home/vboxuser/Desktop/du-sync-ekrem",
+    "file": "/home/vboxuser/Desktop/du-sync-ekrem/src/path_util.c",
+    "output": "/home/vboxuser/Desktop/du-sync-ekrem/src/path_util.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/cc",
+      "-std=c11",
+      "-O2",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "-Wshadow",
+      "-Wconversion",
+      "-Wnull-dereference",
+      "-Wformat=2",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "src/strvec.o",
+      "src/strvec.c"
+    ],
+    "directory": "/home/vboxuser/Desktop/du-sync-ekrem",
+    "file": "/home/vboxuser/Desktop/du-sync-ekrem/src/strvec.c",
+    "output": "/home/vboxuser/Desktop/du-sync-ekrem/src/strvec.o"
+  }
+]

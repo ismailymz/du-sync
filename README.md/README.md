@@ -10,4 +10,6 @@ It traverses a directory tree, sums the sizes of regular files (bytes), avoids d
 - Robust error handling (prints warnings to `stderr`, continues traversal)
 - Automated tests comparing output to `du -sb`
 
+new branch added.
+
 ## Project Structure
