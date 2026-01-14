@@ -13,3 +13,18 @@ It traverses a directory tree, sums the sizes of regular files (bytes), avoids d
 new branch added.
 
 ## Project Structure
+
+## Usage with stdin / pipelines
+
+`du-sync` supports reading input paths from standard input, which allows it
+to be used in typical Unix pipelines.
+
+Examples:
+
+```sh
+find . -print0 | ./du-sync -0 -
+
+./du-sync - < paths.txt
+
+
+
