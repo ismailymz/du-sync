@@ -24,3 +24,18 @@ clean:
 test: all
 	./tests/run.sh
 
+format:
+	@echo "No formatter configured. (Optional) Consider clang-format."
+
+	EOF
+
+	cat > README.md <<'EOF'
+# du-sync (Sequential Phase)
+
+A small C program inspired by `du -sb` that **sums the sizes of regular files** (bytes)
+under each input path, **avoids double counting hard links** via `(st_dev, st_ino)` tracking,
+and **continues on errors** (permission issues etc.) while printing warnings to `stderr`.
+
+## Build
+```sh
+make
