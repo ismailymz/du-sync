@@ -17,6 +17,7 @@ static void usage(FILE *out) {
             "Options:\n"
             "  -0            Read NUL-delimited paths from stdin (only with '-' arg or piped stdin)\n"
             "  -q            Quiet (suppress warnings)\n"
+	    "  -L            Follow symlinks (use stat instead of lstat)\n"
             "  -h, --help    Show this help\n"
             "  -V, --version Show version\n"
             "\n"
@@ -43,7 +44,12 @@ static int add_stdin_paths(StrVec *paths, int nul_delim) {
 }
 
 int main(int argc, char **argv) {
-    DuOptions opt = {.quiet = false, .stdin_nul = false};
+    DuOptions opt = {
+    .quiet = false,
+    .stdin_nul = false,
+    .follow_symlinks = false
+};
+
 
     static const struct option long_opts[] = {
         {"help", no_argument, NULL, 'h'},
@@ -52,7 +58,7 @@ int main(int argc, char **argv) {
     };
 
     for (;;) {
-        int c = getopt_long(argc, argv, "0qhV", long_opts, NULL);
+        int c = getopt_long(argc, argv, "0qhVL", long_opts, NULL);
         if (c == -1) break;
         switch (c) {
             case '0':
@@ -67,6 +73,9 @@ int main(int argc, char **argv) {
             case 'V':
                 version(stdout);
                 return 0;
+	    case 'L':
+		opt.follow_symlinks = true;
+		break;
             default:
                 usage(stderr);
                 return 2;

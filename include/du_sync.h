@@ -7,6 +7,7 @@
 typedef struct DuOptions {
     bool quiet;           /* suppress warnings */
     bool stdin_nul;       /* -0: read NUL-delimited paths from stdin */
+    bool follow_symlinks;    /* -L: follow symlinks (use stat instead of lstat) */
 } DuOptions;
 
 /*
