@@ -80,7 +80,10 @@ int du_sync_sum_regular_bytes(const char *root_path, const DuOptions *opt, uint6
     stack_init(&st);
 
     struct stat sb;
-    if (lstat(root_path, &sb) != 0) {
+    int rc;
+    rc = lstat(root_path, &sb);
+
+    if (rc != 0) {
         warn_errno(opt, "cannot stat", root_path);
         inode_set_destroy(seen);
         stack_destroy(&st);
@@ -88,7 +91,7 @@ int du_sync_sum_regular_bytes(const char *root_path, const DuOptions *opt, uint6
     }
 
     if (S_ISREG(sb.st_mode)) {
-        int rc = handle_regular(opt, seen, &sb, out_bytes);
+        (void)  handle_regular(opt, seen, &sb, out_bytes);
         inode_set_destroy(seen);
         stack_destroy(&st);
         return (rc == 0) ? 0 : 1;
@@ -141,7 +144,13 @@ int du_sync_sum_regular_bytes(const char *root_path, const DuOptions *opt, uint6
             }
 
             struct stat csb;
-            if (lstat(child, &csb) != 0) {
+	    int rc2;
+	    if (opt && opt->follow_symlinks)
+		rc2 = stat(child, &csb);
+	    else
+		rc2= lstat(child, &csb);
+
+            if (rc2 != 0) {
                 warn_errno(opt, "cannot stat", child);
                 free(child);
                 continue;
@@ -160,7 +169,7 @@ int du_sync_sum_regular_bytes(const char *root_path, const DuOptions *opt, uint6
             }
 
             if (S_ISREG(csb.st_mode)) {
-                int rc = handle_regular(opt, seen, &csb, out_bytes);
+                (void)  handle_regular(opt, seen, &csb, out_bytes);
                 free(child);
                 if (rc != 0) {
                     closedir(dir);
