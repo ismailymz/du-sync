@@ -18,6 +18,7 @@ static void usage(FILE *out) {
             "  -0                Read NUL-delimited paths from stdin (only with '-' arg or piped stdin)\n"
             "  -q                Quiet (suppress warnings)\n"
             "  -j, --jobs N       Use N worker threads for parallel traversal (default: 1)\n"
+	    "      --debug-threads Print worker threads activity \n"
             "  -h, --help         Show this help\n"
             "  -V, --version      Show version\n"
             "\n"
@@ -141,3 +142,4 @@ int main(int argc, char **argv) {
     strvec_destroy(&paths);
     return exit_code;
 }
+
