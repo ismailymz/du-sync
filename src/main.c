@@ -15,11 +15,11 @@ static void usage(FILE *out) {
             "Sums sizes (bytes) of regular files under each PATH.\n"
             "\n"
             "Options:\n"
-            "  -0            Read NUL-delimited paths from stdin (only with '-' arg or piped stdin)\n"
-            "  -q            Quiet (suppress warnings)\n"
-	    "  -L            Follow symlinks (use stat instead of lstat)\n"
-            "  -h, --help    Show this help\n"
-            "  -V, --version Show version\n"
+            "  -0                Read NUL-delimited paths from stdin (only with '-' arg or piped stdin)\n"
+            "  -q                Quiet (suppress warnings)\n"
+            "  -j, --jobs N       Use N worker threads for parallel traversal (default: 1)\n"
+            "  -h, --help         Show this help\n"
+            "  -V, --version      Show version\n"
             "\n"
             "Input via stdin:\n"
             "  If PATH is '-', read paths from stdin.\n"
@@ -27,7 +27,7 @@ static void usage(FILE *out) {
 }
 
 static void version(FILE *out) {
-    fprintf(out, "du-sync 1.0.0\n");
+    fprintf(out, "du-sync 1.1.0\n");
 }
 
 static int print_one(const char *path, const DuOptions *opt) {
@@ -43,22 +43,27 @@ static int add_stdin_paths(StrVec *paths, int nul_delim) {
     return strvec_read_from_stdin(paths, delim);
 }
 
-int main(int argc, char **argv) {
-    DuOptions opt = {
-    .quiet = false,
-    .stdin_nul = false,
-    .follow_symlinks = false
-};
+static int parse_jobs(const char *s) {
+    if (!s || !*s) return -1;
+    char *end = NULL;
+    long v = strtol(s, &end, 10);
+    if (!end || *end != '\0') return -1;
+    if (v < 1 || v > 256) return -1;
+    return (int)v;
+}
 
+int main(int argc, char **argv) {
+    DuOptions opt = {.quiet = false, .stdin_nul = false, .jobs = 1};
 
     static const struct option long_opts[] = {
         {"help", no_argument, NULL, 'h'},
         {"version", no_argument, NULL, 'V'},
+        {"jobs", required_argument, NULL, 'j'},
         {0, 0, 0, 0},
     };
 
     for (;;) {
-        int c = getopt_long(argc, argv, "0qhVL", long_opts, NULL);
+        int c = getopt_long(argc, argv, "0qhj:V", long_opts, NULL);
         if (c == -1) break;
         switch (c) {
             case '0':
@@ -67,15 +72,21 @@ int main(int argc, char **argv) {
             case 'q':
                 opt.quiet = true;
                 break;
+            case 'j': {
+                int j = parse_jobs(optarg);
+                if (j < 1) {
+                    fprintf(stderr, "du-sync: invalid jobs value: %s\n", optarg ? optarg : "(null)");
+                    return 2;
+                }
+                opt.jobs = j;
+                break;
+            }
             case 'h':
                 usage(stdout);
                 return 0;
             case 'V':
                 version(stdout);
                 return 0;
-	    case 'L':
-		opt.follow_symlinks = true;
-		break;
             default:
                 usage(stderr);
                 return 2;

@@ -1,8 +1,9 @@
+
 CC ?= gcc
 CFLAGS ?= -std=c11 -O2 -Wall -Wextra -Wpedantic -Wshadow -Wconversion -Wnull-dereference -Wformat=2
-CPPFLAGS ?= -Iinclude
+CPPFLAGS ?= -Iinclude -D_XOPEN_SOURCE=700
 LDFLAGS ?=
-LDLIBS ?=
+LDLIBS ?= -pthread
 
 BIN := du-sync
 SRC := src/main.c src/du_sync.c src/inode_set.c src/path_util.c src/strvec.c
@@ -24,3 +25,5 @@ clean:
 test: all
 	./tests/run.sh
 
+format:
+	@echo "No formatter configured. (Optional) Consider clang-format."

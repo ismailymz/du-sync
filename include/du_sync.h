@@ -5,20 +5,11 @@
 #include <stdint.h>
 
 typedef struct DuOptions {
-    bool quiet;           /* suppress warnings */
-    bool stdin_nul;       /* -0: read NUL-delimited paths from stdin */
-    bool follow_symlinks;    /* -L: follow symlinks (use stat instead of lstat) */
+    bool quiet;      /* suppress warnings */
+    bool stdin_nul;  /* -0: read NUL-delimited paths from stdin */
+    int jobs;        /* -j N: number of worker threads (<=1 => sequential) */
 } DuOptions;
 
-/*
- * Computes the total size (bytes) of regular files under `root_path`.
- * - Uses lstat() (does not follow symlinks).
- * - Avoids double-counting hard links by tracking (st_dev, st_ino).
- * - On errors, prints warning to stderr (unless quiet) and continues.
- *
- * Returns 0 on success (even if some sub-entries fail), nonzero only on fatal
- * allocation errors.
- */
 int du_sync_sum_regular_bytes(const char *root_path, const DuOptions *opt, uint64_t *out_bytes);
 
 #endif /* DU_SYNC_H */
