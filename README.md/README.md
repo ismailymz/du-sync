@@ -26,5 +26,8 @@ find . -print0 | ./du-sync -0 -
 
 ./du-sync - < paths.txt
 
+## Acknowledgements
+Some of the test scripts and ideas for handling edge cases were developed with the help of OpenAI's ChatGPT.
+
 
 
