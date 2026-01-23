@@ -1,0 +1,392 @@
+du-sync[tid=12834]: worker-start idx=0
+du-sync[tid=12836]: worker-start idx=2
+du-sync[tid=12835]: worker-start idx=1
+du-sync[tid=12834]: pop-dir idx=0 path=/etc
+du-sync[tid=12837]: worker-start idx=3
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/vim
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/rc0.d
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/sgml
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/pki
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/wpa_supplicant
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/udisks2
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/plymouth
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/colord
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/ghostscript
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/gnome
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/initramfs-tools
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/sysstat
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/rc6.d
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/apm
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/hp
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/pcmcia
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/cracklib
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/cron.daily
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/gtk-3.0
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/debuginfod
+du-sync[tid=12837]: du-sync[tid=12835]: pop-dir idx=3 path=/etc/systemddu-sync[tid=12836]: pop-dir idx=2 path=/etc/geoclue
+pop-dir idx=1 path=/etc/ppp
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/rc1.d
+
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/brltty
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/update-motd.d
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/avahi
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/rc2.d
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/ssh
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/libpaper.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/bluetooth
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/emacs
+du-sync[tid=12835]: du-sync[tid=12837]: du-sync[tid=12834]: pop-dir idx=3 path=/etc/tmpfiles.ddu-sync[tid=12836]: 
+pop-dir idx=0 path=/etc/ipp-usb
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/gnome-remote-desktop
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/dhcp
+pop-dir idx=2 path=/etc/init
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/sgml/docbook-xmldu-sync[tid=12834]: pop-dir idx=0 path=/etc/console-setup
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/apparmor
+
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/groff
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/cron.hourly
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/modprobe.d
+pop-dir idx=1 path=/etc/environment.d
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/networkd-dispatcher
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/skel
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/pki/fwupd-metadatadu-sync[tid=12836]: pop-dir idx=2 path=/etc/pki/fwupd
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/vmware-tools
+
+du-sync[tid=12835]: du-sync[tid=12837]: du-sync[tid=12836]: pop-dir idx=2 path=/etc/init.d
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/network
+pop-dir idx=3 path=/etc/apport
+pop-dir idx=1 path=/etc/speech-dispatcher
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/gdb
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/ghostscript/cidfmap.d
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/ghostscript/fontmap.d
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/alternativesdu-sync[tid=12837]: pop-dir idx=3 path=/etc/chatscripts
+du-sync[tid=12835]: 
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/depmod.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/dbus-1
+pop-dir idx=1 path=/etc/ifplugd
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/dictionaries-common
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/cron.monthly
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/sudoers.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/tmptuqac3yc
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/update-notifier
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/modules-load.d
+du-sync[tid=12835]: du-sync[tid=12837]: pop-dir idx=3 path=/etc/cloudpop-dir idx=1 path=/etc/initramfs-tools/scriptsdu-sync[tid=12836]: pop-dir idx=2 path=/etc/fonts
+
+
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/initramfs-tools/conf.d
+du-sync[tid=12837]: du-sync[tid=12836]: pop-dir idx=2 path=/etc/sensors.d
+pop-dir idx=3 path=/etc/cupshelpers
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/initramfs-tools/hooks
+du-sync[tid=12835]: du-sync[tid=12837]: pop-dir idx=3 path=/etc/dconf
+pop-dir idx=1 path=/etc/credstore.encrypted
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/profile.d
+du-sync[tid=12836]: du-sync[tid=12835]: pop-dir idx=1 path=/etc/apm/scripts.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/ubuntu-advantage
+pop-dir idx=2 path=/etc/gss
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/apm/suspend.d
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/rsyslog.d
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/sysctl.ddu-sync[tid=12837]: 
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/rcS.d
+pop-dir idx=3 path=/etc/pulsedu-sync[tid=12834]: pop-dir idx=0 path=/etc/apm/resume.d
+
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/grub.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/cron.weeklydu-sync[tid=12834]: pop-dir idx=0 path=/etc/insserv.conf.d
+
+du-sync[tid=12835]: du-sync[tid=12836]: pop-dir idx=1 path=/etc/glvnddu-sync[tid=12834]: du-sync[tid=12837]: 
+pop-dir idx=2 path=/etc/opt
+pop-dir idx=3 path=/etc/sane.dpop-dir idx=0 path=/etc/krb5.conf.ddu-sync[tid=12836]: 
+pop-dir idx=2 path=/etc/sssd
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/python3
+
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/gnutls
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/libnl-3
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/rc4.d
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/ssl
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/newt
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/credstore
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/update-manager
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/snmp
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/X11
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/usb_modeswitch.d
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/netplan
+du-sync[tid=12836]: du-sync[tid=12834]: pop-dir idx=0 path=/etc/alsa
+pop-dir idx=2 path=/etc/xdg
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/geoclue/conf.ddu-sync[tid=12837]: 
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/udev
+pop-dir idx=3 path=/etc/apparmor.d
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/cron.d
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/selinuxdu-sync[tid=12836]: pop-dir idx=2 path=/etc/ppp/peersdu-sync[tid=12834]: pop-dir idx=0 path=/etc/vulkan
+
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/pm
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/fwupd
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/ldap
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/bash_completion.ddu-sync[tid=12834]: pop-dir idx=0 path=/etc/UPower
+
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/kernel
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/perl
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/ppp/ip-up.d
+
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/ppp/ip-down.d
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/systemd/timesyncd.conf.d
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/systemd/network
+du-sync[tid=12836]: du-sync[tid=12834]: du-sync[tid=12835]: pop-dir idx=2 path=/etc/rc5.d
+pop-dir idx=1 path=/etc/PackageKit
+pop-dir idx=0 path=/etc/systemd/system
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/systemd/user
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/ld.so.conf.ddu-sync[tid=12835]: pop-dir idx=1 path=/etc/ufw
+
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/polkit-1
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/brltty/Attributes
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/apt
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/brltty/Text
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/brltty/Contraction
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/iproute2
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/brltty/Keyboard
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/systemd/system-generators
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/brltty/Input
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/logcheck
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/libblockdev
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/NetworkManager
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/terminfo
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/security
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/default
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/openvpn
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/pam.d
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/logrotate.d
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/avahi/services
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/binfmt.ddu-sync[tid=12835]: du-sync[tid=12834]: pop-dir idx=0 path=/etc/rc3.d
+pop-dir idx=1 path=/etc/gtk-2.0
+
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/python3.12
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/cron.yearly
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/ca-certificates
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/cups
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/thermald
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/xml
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/dpkgdu-sync[tid=12837]: pop-dir idx=3 path=/etc/supercat
+
+du-sync[tid=12834]: du-sync[tid=12837]: pop-dir idx=3 path=/etc/gdm3pop-dir idx=0 path=/etc/ModemManager
+du-sync[tid=12836]: du-sync[tid=12835]: pop-dir idx=1 path=/etc/ssh/ssh_config.d
+
+pop-dir idx=2 path=/etc/emacs/site-start.ddu-sync[tid=12835]: pop-dir idx=1 path=/etc/sgml/docbook-xml/4.5
+du-sync[tid=12834]: 
+pop-dir idx=0 path=/etc/dhcp/dhclient-exit-hooks.d
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/sgml/docbook-xml/4.0
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/sgml/docbook-xml/4.4du-sync[tid=12834]: du-sync[tid=12835]: pop-dir idx=0 path=/etc/sgml/docbook-xml/4.1.2
+
+pop-dir idx=1 path=/etc/sgml/docbook-xml/4.2
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/networkd-dispatcher/off.d
+du-sync[tid=12837]: du-sync[tid=12835]: du-sync[tid=12834]: pop-dir idx=3 path=/etc/networkd-dispatcher/dormant.dpop-dir idx=0 path=/etc/networkd-dispatcher/carrier.dpop-dir idx=1 path=/etc/networkd-dispatcher/routable.d
+
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/sgml/docbook-xml/4.3
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/networkd-dispatcher/degraded.d
+du-sync[tid=12834]: 
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/vmware-tools/vgauthdu-sync[tid=12837]: pop-dir idx=0 path=/etc/vmware-tools/scripts
+
+pop-dir idx=3 path=/etc/networkd-dispatcher/no-carrier.ddu-sync[tid=12836]: pop-dir idx=2 path=/etc/network/if-post-down.ddu-sync[tid=12835]: pop-dir idx=1 path=/etc/network/if-up.d
+
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/network/if-down.d
+
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/apport/report-ignore
+du-sync[tid=12834]: du-sync[tid=12837]: pop-dir idx=3 path=/etc/gdb/gdbinit.dpop-dir idx=0 path=/etc/apport/blacklist.ddu-sync[tid=12835]: pop-dir idx=1 path=/etc/network/if-pre-up.d
+
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/speech-dispatcher/modules
+
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/dbus-1/system.d
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/dbus-1/session.ddu-sync[tid=12837]: pop-dir idx=3 path=/etc/speech-dispatcher/clients
+
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/ifplugd/action.d
+du-sync[tid=12834]: du-sync[tid=12835]: du-sync[tid=12836]: pop-dir idx=2 path=/etc/fonts/conf.availdu-sync[tid=12837]: pop-dir idx=3 path=/etc/cloud/clean.d
+
+pop-dir idx=0 path=/etc/fonts/conf.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/cloud/templates
+pop-dir idx=1 path=/etc/fonts/snap-override
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/initramfs-tools/scripts/nfs-bottom
+du-sync[tid=12836]: du-sync[tid=12835]: pop-dir idx=1 path=/etc/initramfs-tools/scripts/nfs-top
+pop-dir idx=2 path=/etc/cloud/cloud.cfg.d
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/initramfs-tools/scripts/local-top
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/initramfs-tools/scripts/init-bottom
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/initramfs-tools/scripts/panic
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/initramfs-tools/scripts/nfs-premount
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/initramfs-tools/scripts/local-premount
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/initramfs-tools/scripts/init-top
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/initramfs-tools/scripts/local-bottom
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/initramfs-tools/scripts/init-premountdu-sync[tid=12835]: pop-dir idx=1 path=/etc/gss/mech.d
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/dconf/profiledu-sync[tid=12837]: pop-dir idx=3 path=/etc/dconf/db
+du-sync[tid=12835]: 
+pop-dir idx=1 path=/etc/pulse/client.conf.d
+
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/ssl/private
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/glvnd/egl_vendor.d
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/X11/cursors
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/update-manager/release-upgrades.d
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/ssl/certs
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/X11/xorg.conf.d
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/X11/app-defaults
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/X11/xkb
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/X11/fonts
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/X11/xinit
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/X11/Xsession.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/X11/Xresources
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/X11/xsm
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/X11/Xreset.d
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/sane.d/dll.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/xdg/ui
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/alsa/conf.d
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/xdg/systemd
+du-sync[tid=12836]: du-sync[tid=12834]: pop-dir idx=0 path=/etc/xdg/colors
+pop-dir idx=2 path=/etc/xdg/Xwayland-session.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/xdg/menus
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/xdg/autostartdu-sync[tid=12836]: pop-dir idx=2 path=/etc/udev/hwdb.d
+
+du-sync[tid=12837]: du-sync[tid=12836]: pop-dir idx=2 path=/etc/vulkan/explicit_layer.d
+pop-dir idx=3 path=/etc/udev/rules.d
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/vulkan/icd.d
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/vulkan/implicit_layer.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/pm/sleep.d
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/fwupd/remotes.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/fwupd/bios-settings.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/apparmor.d/abstractions
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/kernel/postinst.d
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/kernel/postrm.d
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/kernel/install.d
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/kernel/preinst.d
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/apparmor.d/abi
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/perl/Net
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/apparmor.d/tunables
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/apparmor.d/rsyslog.d
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/apparmor.d/force-complain
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/apparmor.d/local
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/systemd/user/graphical-session-pre.target.wants
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/systemd/user/default.target.wants
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/systemd/user/sockets.target.wants
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/systemd/system/open-vm-tools.service.requires
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/systemd/system/sssd.service.wants
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/systemd/user/timers.target.wants
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/systemd/system/final.target.wants
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/systemd/user/pipewire.service.wants
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/systemd/user/gnome-session.target.wants
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/systemd/system/snapd.mounts.target.wants
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/systemd/system/sysinit.target.wants
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/ufw/applications.d
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/systemd/system/sockets.target.wants
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/systemd/system/cloud-final.service.wantsdu-sync[tid=12834]: pop-dir idx=0 path=/etc/systemd/system/printer.target.wants
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/systemd/user/graphical-session.target.wants
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/polkit-1/rules.d
+du-sync[tid=12834]: 
+du-sync[tid=12836]: du-sync[tid=12837]: du-sync[tid=12835]: pop-dir idx=0 path=/etc/polkit-1/localauthority.conf.dpop-dir idx=2 path=/etc/systemd/system/rescue.target.wants
+pop-dir idx=1 path=/etc/systemd/system/display-manager.service.wantsdu-sync[tid=12836]: pop-dir idx=2 path=/etc/systemd/system/emergency.target.wants
+
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/systemd/system/paths.target.wants
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/systemd/system/bluetooth.target.wants
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/apt/apt.conf.d
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/apt/keyrings
+pop-dir idx=3 path=/etc/systemd/system/sleep.target.wants
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/systemd/system/hibernate.target.wants
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/systemd/system/timers.target.wants
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/apt/sources.list.d
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/apt/trusted.gpg.d
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/apt/preferences.d
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/apt/auth.conf.d
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/systemd/system/oem-config.service.wants
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/systemd/system/suspend.target.wants
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/systemd/system/graphical.target.wants
+
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/systemd/system/network-online.target.wants
+du-sync[tid=12837]: du-sync[tid=12835]: pop-dir idx=1 path=/etc/iproute2/rt_tables.d
+pop-dir idx=3 path=/etc/systemd/system/sshd-keygen@.service.d
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/systemd/system/getty.target.wants
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/systemd/system/suspend-then-hibernate.target.wants
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/systemd/system/cloud-init.target.wants
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/systemd/system/multi-user.target.wants
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/iproute2/rt_protos.d
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/logcheck/ignore.d.paranoid
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/systemd/system/hybrid-sleep.target.wants
+du-sync[tid=12837]: du-sync[tid=12835]: du-sync[tid=12836]: pop-dir idx=2 path=/etc/brltty/Input/ts
+pop-dir idx=3 path=/etc/brltty/Input/md
+pop-dir idx=1 path=/etc/logcheck/ignore.d.server
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/brltty/Input/bn
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/brltty/Input/ec
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/brltty/Input/tt
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/brltty/Input/eu
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/brltty/Input/fa
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/brltty/Input/al
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/brltty/Input/ht
+du-sync[tid=12835]: du-sync[tid=12834]: pop-dir idx=0 path=/etc/brltty/Input/sk
+pop-dir idx=1 path=/etc/libblockdev/3
+du-sync[tid=12835]: pop-dir idx=1 path=/etc/brltty/Input/fs
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/brltty/Input/cb
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/security/namespace.d
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/security/limits.d
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/default/grub.d
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/brltty/Input/lb
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/brltty/Input/ir
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/brltty/Input/bl
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/brltty/Input/pg
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/brltty/Input/hd
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/brltty/Input/no
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/brltty/Input/ba
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/brltty/Input/mmdu-sync[tid=12834]: pop-dir idx=0 path=/etc/brltty/Input/bp
+
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/brltty/Input/hm
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/brltty/Input/bd
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/brltty/Input/tn
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/brltty/Input/bg
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/brltty/Input/ic
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/brltty/Input/mt
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/openvpn/client
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/openvpn/server
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/brltty/Input/vs
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/brltty/Input/ce
+du-sync[tid=12837]: du-sync[tid=12834]: pop-dir idx=0 path=/etc/brltty/Input/bm
+pop-dir idx=3 path=/etc/brltty/Input/np
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/brltty/Input/lt
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/brltty/Input/vo
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/brltty/Input/hw
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/brltty/Input/pm
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/brltty/Input/vr
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/brltty/Input/xwdu-sync[tid=12834]: pop-dir idx=0 path=/etc/brltty/Input/mb
+
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/brltty/Input/vd
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/brltty/Input/at
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/brltty/Input/mn
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/NetworkManager/conf.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/NetworkManager/VPN
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/NetworkManager/dnsmasq.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/NetworkManager/dnsmasq-shared.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/NetworkManager/dispatcher.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/NetworkManager/system-connections
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/ca-certificates/update.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/cups/interfaces
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/cups/ppd
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/cups/ssl
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/dpkg/dpkg.cfg.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/dpkg/origins
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/ModemManager/connection.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/ModemManager/fcc-unlock.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/gdm3/PostSession
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/gdm3/PreSession
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/gdm3/PrimeOff
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/gdm3/Init
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/gdm3/PostLogin
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/gdm3/Prime
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/vmware-tools/vgauth/schemas
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/vmware-tools/scripts/vmware
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/dconf/db/ibus.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/X11/fonts/Type1
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/X11/fonts/misc
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/apparmor.d/tunables/multiarch.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/apparmor.d/tunables/xdg-user-dirs.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/apparmor.d/tunables/home.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/apparmor.d/abstractions/ubuntu-browsers.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/apparmor.d/abstractions/apparmor_api
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/libblockdev/3/conf.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/NetworkManager/dispatcher.d/pre-up.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/NetworkManager/dispatcher.d/pre-down.d
+du-sync[tid=12837]: pop-dir idx=3 path=/etc/NetworkManager/dispatcher.d/no-wait.d
+du-sync[tid=12836]: pop-dir idx=2 path=/etc/brltty/Input/dp
+du-sync[tid=12834]: pop-dir idx=0 path=/etc/brltty/Input/cn
+du-sync[tid=12834]: worker-exit idx=0
+du-sync[tid=12835]: worker-exit idx=1
+du-sync[tid=12836]: worker-exit idx=2
+du-sync[tid=12837]: worker-exit idx=3
