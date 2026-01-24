@@ -30,6 +30,20 @@ find . -print0 | ./du-sync -0 -
 
 Some of the test scripts and ideas for handling edge cases were developed with the help of OpenAI's ChatGPT.
 
+## Instructions
+
+- First clone the repository using git.
+- After cloning, navigate to the du-sync folder.
+- Open a terminal in this folder and execute:
+  make all
+- After that, the program is compiled.
+  Run the command:
+  ./du-sync /<directory>
+- The result is printed on the command line.
+- To execute all tests run:
+  ./du-sync tests/*.sh
+
+
 
 
 
