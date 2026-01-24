@@ -37,11 +37,12 @@ Some of the test scripts and ideas for handling edge cases were developed with t
 - Open a terminal in this folder and execute:
   make all
 - After that, the program is compiled.
-- Run the command:
+- To execute the program run:
   ./du-sync /<directory>
 - The result is printed on the command line.
-- To execute all tests run:
+- To execute all tests cases in the tests folder run:
   ./du-sync tests/*.sh
+
 
 
 
