@@ -13,6 +13,28 @@ Robust error handling:
 - Output format:
     <bytes>\t<path>
 
+## Acknowledgements
+
+Some of the test scripts and ideas for handling edge cases were developed with the help of OpenAI's ChatGPT.
+
+## Instructions
+
+- First clone the repository using git.
+- After cloning, navigate to the du-sync folder.
+- Open a terminal in this folder and execute:
+  make all
+- After that, the program is compiled.
+- To execute the program run:
+  ./du-sync /<directory>
+- The result is printed on the command line.
+- To execute all tests cases in the tests folder run:
+  ./du-sync tests/*.sh
+
+
+
+
+
+
 
     CLI + pipeline support
   
